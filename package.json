@@ -4,7 +4,7 @@
   "description": "Node.js, Express, MongoDB, Mongoose. Trying out some stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tobsirl/restful-api-march-2019/issues"
   },
-  "homepage": "https://github.com/tobsirl/restful-api-march-2019#readme"
+  "homepage": "https://github.com/tobsirl/restful-api-march-2019#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
