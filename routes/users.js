@@ -1,7 +1,8 @@
 import { Router } from 'express';
+import UserController from '../controllers/userController';
 
 const router = Router();
 
-router.get('/', (req, res) => res.json({ message: 'Inside router user', name: 'John Doe', age: 25 }));
+router.get('/', UserController.get);
 
 export default router;

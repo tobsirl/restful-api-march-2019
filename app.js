@@ -10,9 +10,9 @@ const app = express();
 // Middleware
 app.use(cors());
 
-app.use('/', (req, res) => {
-  res.json({ message: 'route working', name: 'John Doe', age: 25 });
-});
+// app.use('/', (req, res) => {
+//   res.json({ message: 'route working', name: 'John Doe', age: 25 });
+// });
 
 // Add routes
 app.use('/users', routes);
