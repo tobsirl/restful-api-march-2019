@@ -4,7 +4,8 @@
   "description": "Node.js, Express, MongoDB, Mongoose. Trying out some stuff",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "homepage": "https://github.com/tobsirl/restful-api-march-2019#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
   }
 }
